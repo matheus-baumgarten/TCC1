@@ -127,6 +127,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CadastroChamado.aspx" />
+    <Content Include="CadastroUsuario1.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -178,6 +180,20 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="CadastroChamado.aspx.cs">
+      <DependentUpon>CadastroChamado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroChamado.aspx.designer.cs">
+      <DependentUpon>CadastroChamado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CadastroUsuario1.aspx.cs">
+      <DependentUpon>CadastroUsuario1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroUsuario1.aspx.designer.cs">
+      <DependentUpon>CadastroUsuario1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="dbConnect.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
